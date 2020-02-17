@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react'
-import './'
-import 'materialize-css'
+import React from 'react'
 import ProductListItems from '../ProductListItems'
 import Row from '../Row'
 import FilterItems from '../FilterItems'
+import SortByPrice from '../SortByPrice'
+import SortByRate from '../SortByRate'
+import 'materialize-css'
 
 let key = 1
 
@@ -22,7 +23,6 @@ const App = () => {
     return (
         <div>
             <Row left={<FilterItems />} right={<ProductListItems items={products} />}></Row>
-
         </div>
     )
 }

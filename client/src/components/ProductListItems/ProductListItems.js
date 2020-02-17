@@ -9,7 +9,6 @@ const ProductListItems = (props) => {
         <div className="row">
             <div className="col s12">
                 <div className="card"></div>
-
                 {
                     items.map((elem) => {
                         return (
