@@ -1,7 +1,9 @@
 import React from 'react'
-import FilterItemsOne from '../FilterItemOne'
-import FilterItemsTwo from '../FilterItemTwo'
-import FilterItemsThree from '../FilterItemThree'
+import FilterItemsOne from '../FilterItemsOne'
+import FilterItemsTwo from '../FilterItemsTwo'
+import FilterItemsThree from '../FilterItemsThree'
+
+import './FilterItems.css'
 
 const FilterItems = () => {
     return (
@@ -10,18 +12,11 @@ const FilterItems = () => {
 
                     <fieldset className="card-content" style={{ position: 'relative' }}>
                         <legend style={{ padding: '0 0.5rem' }}>filter</legend>
-                        <fieldset>
                             <FilterItemsOne />
-                            <legend><i className="" style={{padding:'0 0.5rem',fontSize:'2rem', outline: '2px solid black'}}>+</i></legend>
-                        </fieldset>
-                        <fieldset>
-                            <legend><i className="" style={{padding:'0 0.5rem',fontSize:'2rem', outline: '2px solid black'}}>+</i></legend>
-                            <FilterItemsTwo />
-                        </fieldset>
-                        <fieldset>
-                            <legend><i className="" style={{padding:'0 0.5rem',fontSize:'2rem', outline: '2px solid black'}}>+</i></legend>
+                      
+                                   <FilterItemsTwo />
                             <FilterItemsThree />
-                        </fieldset>
+                   
                     </fieldset>
                 </div>
         </div>

@@ -5,7 +5,7 @@ const ProductListItem = (props) => {
     return (
         <div className="col s12 m4 center-align">
             <div className="card" >
-                <span className="price">{price}</span>
+                <span className="price"><i>{price}</i></span>
                 <div className="card-content" style={{padding:'1.5rem 1rem 0.5rem',outline: '2px solid black'}} >
                     <div className="product-image">
                         <img src={img} alt="product" />

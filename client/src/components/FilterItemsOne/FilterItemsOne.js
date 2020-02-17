@@ -2,7 +2,8 @@ import React from 'react'
 
 const FilterItemsOne = () => {
   return (
-    <div className="flex col s6">
+    <div className="col s12 filter-item" >
+      <p ><i className="material-icons plus-button">add</i></p>
       <label>
         <input type="checkbox" />
         <span>case1</span>
